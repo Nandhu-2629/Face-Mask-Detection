@@ -1,0 +1,24 @@
+
+# Virtual environments
+venv/
+venv_keras3/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Django database and uploaded images
+db.sqlite3
+media/
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+
+# Log files
+*.log
+django_project/face_mask_model_backup.h5
+django_project/face_mask_model.h5
