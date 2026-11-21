@@ -1,8 +1,21 @@
 # Face Mask Detection System
 
-An AI-powered Face Mask Detection System that identifies human faces and classifies whether a person is wearing a face mask using Deep Learning and Computer Vision.
+## 🚀 Live Demo
+
+**Live Website:** [Face Mask Detection](https://face-mask-detection-pjpp.onrender.com)
+
+Try the following features:
+- Upload images to detect whether a person is wearing a face mask.
+- Perform real-time face mask detection using your webcam.
+- View detected faces with bounding boxes, classification results, and confidence scores.
+
+**GitHub Repository:** [Face-Mask-Detection](https://github.com/Nandhu-2629/Face-Mask-Detection)
+
+---
 
 ## Project Overview
+
+An AI-powered Face Mask Detection System that identifies human faces and classifies whether a person is wearing a face mask using Deep Learning and Computer Vision.
 
 This project combines a trained Convolutional Neural Network (CNN) with OpenCV-based face detection to identify mask usage.
 
@@ -43,6 +56,7 @@ FaceMaskDetection/
 ├── convert_model.py
 ├── requirements.txt
 ├── .gitignore
+├── .python-version
 └── README.md
 ```
 
@@ -126,15 +140,25 @@ http://127.0.0.1:8000/
 - **CNN Model:** Trained face mask classification model.
 - **YuNet:** Pretrained face detection model.
 
+## Deployment
+
+The application is deployed using **Render** and is publicly accessible.
+
+**Live Application:** https://face-mask-detection-pjpp.onrender.com
+
+The deployed application supports image-based detection and real-time webcam detection.
+
 ## Future Enhancements
 
 - Improve model accuracy with a larger and more diverse dataset.
-- Deploy the application to a cloud platform.
 - Add detection statistics and analytics.
 - Improve the user interface and user experience.
+- Explore additional deployment and scalability options.
 
 ## Author
 
 **Nandhitha Sri**
 
 GitHub: [Nandhu-2629](https://github.com/Nandhu-2629)
+
+GitHub Profile: https://github.com/Nandhu-2629
